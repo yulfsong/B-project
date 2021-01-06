@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+   	margin: 0; 
+   	padding: 0;
+}
+
+   
+body {		
+   	font-family: 'Nanum Gothic'; 
+   	height: 100%;    
+}
+
+.navbar {
+ 	margin-bottom: 0;
+ 	padding-left: 40px;
+ 	padding-right: 40px;
+   	border-radius: 0;
+   	background-color: #FFFFFF;
+   	font-weight: bold;
+}
+ 
+.navbar-brand {
+ 	font-family: 'Kaushan Script';
+}
+ 
+.dropdown-menu > li > a {
+ 	font-size: 13px;
+ 	font-weight: bold;
+}
+
+.aside {
+	padding-top: 20px;
+}
+
+.aside table {
+	margin-top: 25px;
+}
+.aside > table > tbody > tr > td {
+	padding: 12px 10px;
+	font-weight: bold;
+}
+.aside > table > tbody > tr > td:hover {
+	background-color: #F0F0F0;
+	cursor: pointer;
+	color: #4263EB;
+}
+.main-container {
+	margin-top: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.main-content {
+	padding: 20px 30px;
+	border-left: thin solid #E7E7E7;
+}
+
+.center-form {
+   	position: relative;
+   	left: 50%;
+   	width: 320px;
+   	padding: 40px;
+   	border: thin solid #C2C2C2;
+   	border-radius: 5px;
+   	margin-top: 110px;
+   	margin-bottom: 100px;
+   	margin-left: -160px;
+   	font-size: 13px;
+   	overflow: hidden;
+   	background-color: white;
+}
+   
+.okay {
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	color: white;
+ 	background-color: #4263EB;
+ 	width: 100%;
+}
+
+.okay:hover {
+	background-color: #FF4543;
+	color: white; 
+}
+
+.okay:focus {
+	color: white;
+}
+
+.list th, .list td{
+	text-align: center;
+	font-size: 13px;
+	font-family: 'Nanum Gothic';
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.items {
+	margin-bottom: 70px;
+}
+
+.project-item {
+	border: thin solid #C2C2C2;	
+	height: 370px;
+	background-color: white;
+}
+	
+.project-item:hover {
+	cursor: pointer;
+	box-shadow: 10px 10px 30px #777777;
+	transition-duration: 0.5s;
+}
+
+.summernote, .summernote tr, .summernote td {
+ 	border:2px solid #FFFFFF;
+ 	font-size: 14px;
+}
+
+footer {
+	border-top: 2px solid #C2C2C2;
+   	background-color: #f0f0f0;
+   	padding: 25px;
+   	font-weight: bold;
+   	font-family: Merriweather;
+} 	
+
